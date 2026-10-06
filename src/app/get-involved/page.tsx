@@ -3,7 +3,10 @@ import { ArrowRight } from "lucide-react";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
 
 import { Metadata } from "next";
-export const metadata: Metadata = { title: "Get Involved" };
+export const metadata: Metadata = {
+  title: "Get Involved",
+  description: "Join Rengoni – A Ray of Hope. Find out how you can volunteer, support, or participate in our community welfare programs in Assam."
+};
 
 export default function GetInvolvedPage() {
   return (

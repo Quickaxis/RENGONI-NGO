@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "News & Events",
+  description: "Stay updated with the latest news, events, and community activities organized by Rengoni – A Ray of Hope in Assam."
+};
+
 export default function NewsEventsPage() {
   return (
     <div className="pt-32 pb-24 lg:pt-40 lg:pb-32 min-h-screen bg-brand-cream">

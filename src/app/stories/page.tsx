@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
-export const metadata: Metadata = { 
-  title: "Our Story | Rengoni – A Ray of Hope",
-  description: "RENGONI began approximately 10 years ago with a simple purpose: to help others."
+export const metadata: Metadata = {
+  title: "Stories of Change",
+  description: "Read the stories of change and impact from our community welfare projects and relief activities in Assam."
 };
 
 export default function StoriesPage() {

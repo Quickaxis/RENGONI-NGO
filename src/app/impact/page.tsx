@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
-export const metadata: Metadata = { 
-  title: "Our Impact | Rengoni – A Ray of Hope",
-  description: "Qualitative impact statements based on RENGONI's organizational objectives."
+export const metadata: Metadata = {
+  title: "Our Impact",
+  description: "See the impact of Rengoni’s social initiatives and volunteer efforts in transforming lives across Dibrugarh, Assam."
 };
 
 export default function ImpactPage() {

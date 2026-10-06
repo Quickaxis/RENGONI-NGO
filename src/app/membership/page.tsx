@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
-export const metadata: Metadata = { 
-  title: "Membership | Rengoni – A Ray of Hope",
-  description: "Become a member of RENGONI – A RAY OF HOPE."
+export const metadata: Metadata = {
+  title: "Become a Member",
+  description: "Become a member of Rengoni – A Ray of Hope and actively participate in driving positive social change in Dibrugarh, Assam."
 };
 
 export default function MembershipPage() {

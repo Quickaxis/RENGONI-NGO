@@ -2,22 +2,26 @@ import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
 
-export const metadata: Metadata = { 
-  title: "Samim Akhtara Ali – Founder & President of RENGONI",
-  description: "Samim Akhtara Ali is the Founder and President of RENGONI – A RAY OF HOPE and has been involved in social and community-oriented work for more than a decade."
+export const metadata: Metadata = {
+  title: "Samim Akhtara Ali",
+  description: "Learn about Samim Akhtara Ali and her association with Rengoni – A Ray of Hope as a social activist in Dibrugarh, Assam."
 };
 
 export default function SamimAkhtaraAliPage() {
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Person",
-    "name": "Samim Akhtara Ali",
-    "jobTitle": "Founder & President",
-    "worksFor": {
-      "@type": "Organization",
-      "name": "RENGONI – A RAY OF HOPE"
-    },
-    "description": "Samim Akhtara Ali is the Founder and President of RENGONI – A RAY OF HOPE and has been involved in social and community-oriented work for more than a decade."
+    "@type": "ProfilePage",
+    "mainEntity": {
+      "@type": "Person",
+      "name": "Samim Akhtara Ali",
+      "url": "https://rengoni.in/samim-akhtara-ali",
+      "jobTitle": "Founder & President",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Rengoni – A Ray of Hope"
+      },
+      "description": "Samim Akhtara Ali is the Founder and President of RENGONI – A RAY OF HOPE and has been involved in social and community-oriented work for more than a decade."
+    }
   };
 
   return (
@@ -35,7 +39,7 @@ export default function SamimAkhtaraAliPage() {
           <div className="w-full lg:w-[40%]">
              <div className="w-full aspect-[3/4] bg-[#EAE5DF] rounded-[3rem] overflow-hidden flex flex-col shadow-2xl relative">
                 <Image
-                  src="/images/founderimage.jpg"
+                  src="/images/samim-akhtara-ali-rengoni.jpg"
                   alt="Samim Akhtara Ali - Founder & President"
                   fill
                   className="object-cover"

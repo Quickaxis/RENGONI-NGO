@@ -1,5 +1,8 @@
 import { Metadata } from "next";
-export const metadata: Metadata = { title: "Partner With Us" };
+export const metadata: Metadata = {
+  title: "Partner With Rengoni",
+  description: "Partner with Rengoni – A Ray of Hope to collaborate on impactful social projects and CSR initiatives across Assam."
+};
 
 export default function PartnerPage() {
   return (

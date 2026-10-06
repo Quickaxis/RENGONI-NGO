@@ -4,8 +4,8 @@ import { ArrowRight } from "lucide-react";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "About Us | Rengoni – A Ray of Hope",
-  description: "RENGONI – A RAY OF HOPE is a social organization dedicated to helping people, animals, and communities in need.",
+  title: "About Rengoni – Our Story",
+  description: "Learn about the story and mission of Rengoni – A Ray of Hope, an NGO based in Dibrugarh, Assam dedicated to social welfare and community support."
 };
 
 export default function AboutPage() {
@@ -74,7 +74,7 @@ export default function AboutPage() {
             <div className="w-full lg:w-1/2">
               <div className="relative aspect-[3/4] w-full bg-[#EAE5DF] rounded-[3rem] overflow-hidden shadow-2xl flex items-center justify-center">
                  <Image
-                   src="/images/founderimage.jpg"
+                   src="/images/samim-akhtara-ali-rengoni.jpg"
                    alt="Samim Akhtara Ali - Founder & President"
                    fill
                    className="object-cover"

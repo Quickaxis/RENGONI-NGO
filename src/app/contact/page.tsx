@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
-export const metadata: Metadata = { 
-  title: "Contact | Rengoni – A Ray of Hope",
-  description: "Get in touch with RENGONI – A RAY OF HOPE."
+export const metadata: Metadata = {
+  title: "Contact Rengoni | Dibrugarh, Assam",
+  description: "Contact Rengoni – A Ray of Hope. Our office is located at M.R. Road, Naliapool, Dibrugarh, Assam. Call us or send a message."
 };
 
 export default function ContactPage() {

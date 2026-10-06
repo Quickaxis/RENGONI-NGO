@@ -1,8 +1,8 @@
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Our Areas of Work | Rengoni – A Ray of Hope",
-  description: "RENGONI's work is guided by its charitable, humanitarian and social-welfare objectives.",
+  title: "Our Areas of Work",
+  description: "Explore the key areas of work at Rengoni, including women empowerment, child welfare, healthcare awareness, and flood relief in Assam."
 };
 
 const areasOfWork = [

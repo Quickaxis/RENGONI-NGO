@@ -102,7 +102,7 @@ Thank you.`;
               <span className="text-[#F4BA4E] font-bold">•</span> Maintain discipline, honesty, and professionalism while representing the organisation.
             </li>
             <li className="flex gap-3">
-              <span className="text-[#F4BA4E] font-bold">•</span> Help spread awareness about REGONI's initiatives and encourage positive community participation.
+              <span className="text-[#F4BA4E] font-bold">•</span> Help spread awareness about REGONI&apos;s initiatives and encourage positive community participation.
             </li>
             <li className="flex gap-3">
               <span className="text-[#F4BA4E] font-bold">•</span> Protect the privacy and dignity of beneficiaries, especially children and vulnerable individuals.

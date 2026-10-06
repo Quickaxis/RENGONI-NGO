@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 import VolunteerClient from "./VolunteerClient";
 
-export const metadata: Metadata = { 
-  title: "Volunteer | Rengoni – A Ray of Hope",
-  description: "Give your time to RENGONI – A RAY OF HOPE."
+export const metadata: Metadata = {
+  title: "Volunteer With Rengoni",
+  description: "Give your time as a volunteer with Rengoni – A Ray of Hope. Help us support vulnerable communities, animals, and children in Assam."
 };
 
 export default function VolunteerPage() {

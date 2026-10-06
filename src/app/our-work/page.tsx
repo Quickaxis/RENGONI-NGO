@@ -3,24 +3,24 @@ import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 
-import flood1 from "../../../flood1.png";
-import flood2 from "../../../flood2.png";
-import gurudwara1 from "../../../gurudwaraimg1.png";
-import gurudwara2 from "../../../gurudwaraimg2.png";
-import oldagehome1 from "../../../oldagehome1.png";
-import oldagehome2 from "../../../oldagehome2.png";
-import orphanage1 from "../../../orphanage1.png";
-import orphanage2 from "../../../orphanage2.png";
-import cancerpatients1 from "../../../cancerpatients1.png";
-import cancerpatients2 from "../../../cancerpatients2.png";
-import mentallyill1 from "../../../mentalliill.png";
-import mentallyill2 from "../../../mentallyill2.png";
-import dogs1 from "../../../dogs1.png";
-import dogs2 from "../../../dogs2.png";
+import flood1 from "../../../rengoni-flood-relief-assam-1.png";
+import flood2 from "../../../rengoni-flood-relief-assam-2.png";
+import gurudwara1 from "../../../rengoni-community-food-distribution-1.png";
+import gurudwara2 from "../../../rengoni-community-food-distribution-2.png";
+import oldagehome1 from "../../../rengoni-elderly-care-1.png";
+import oldagehome2 from "../../../rengoni-elderly-care-2.png";
+import orphanage1 from "../../../rengoni-orphanage-support-1.png";
+import orphanage2 from "../../../rengoni-orphanage-support-2.png";
+import cancerpatients1 from "../../../rengoni-cancer-patient-support.png";
+import cancerpatients2 from "../../../rengoni-cancer-patient-welfare.png";
+import mentallyill1 from "../../../rengoni-mental-health-support-1.png";
+import mentallyill2 from "../../../rengoni-mental-health-support-2.png";
+import dogs1 from "../../../rengoni-animal-welfare-dogs-1.png";
+import dogs2 from "../../../rengoni-animal-welfare-dogs-2.png";
 
 export const metadata: Metadata = {
-  title: "Our Work | Rengoni",
-  description: "Explore the real impact of our volunteers and supporters across different initiatives.",
+  title: "Our Work & Community Initiatives",
+  description: "Discover the community initiatives and on-ground social work conducted by Rengoni volunteers across Dibrugarh and Assam."
 };
 
 const ourWorkStories = [

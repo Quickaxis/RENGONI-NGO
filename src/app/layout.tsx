@@ -16,19 +16,24 @@ const dmSerif = DM_Serif_Display({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://rengoni.in'),
+  alternates: {
+    canonical: 'https://rengoni.in',
+  },
   title: {
-    default: "Rengoni – A Ray of Hope",
+    default: "Rengoni – A Ray of Hope | NGO in Dibrugarh, Assam",
     template: "%s | Rengoni – A Ray of Hope"
   },
-  description: "Creating meaningful change through compassion, action, and community.",
+  description: "Rengoni – A Ray of Hope is a social welfare organization based in Dibrugarh, Assam, working through community initiatives, welfare activities, awareness, relief and support for people and communities in need.",
   openGraph: {
-    title: "Rengoni – A Ray of Hope",
-    description: "Creating meaningful change through compassion, action, and community.",
+    title: "Rengoni – A Ray of Hope | NGO in Dibrugarh, Assam",
+    description: "Rengoni – A Ray of Hope is a social welfare organization based in Dibrugarh, Assam, working through community initiatives, welfare activities, awareness, relief and support for people and communities in need.",
     siteName: "Rengoni – A Ray of Hope",
+    url: "https://rengoni.in",
     type: "website",
     images: [
       {
-        url: '/logo/rengoni-logo.png',
+        url: 'https://rengoni.in/logo/rengoni-logo.png',
         width: 1536,
         height: 1024,
         alt: 'Rengoni - A Ray of Hope',
@@ -37,9 +42,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Rengoni – A Ray of Hope",
-    description: "Creating meaningful change through compassion, action, and community.",
-    images: ['/logo/rengoni-logo.png'],
+    title: "Rengoni – A Ray of Hope | NGO in Dibrugarh, Assam",
+    description: "Rengoni – A Ray of Hope is a social welfare organization based in Dibrugarh, Assam, working through community initiatives, welfare activities, awareness, relief and support for people and communities in need.",
+    images: ['https://rengoni.in/logo/rengoni-logo.png'],
   }
 };
 
@@ -60,14 +65,23 @@ export default function RootLayout({
                 {
                   "@type": "WebSite",
                   "name": "Rengoni – A Ray of Hope",
-                  "url": "https://rengoni.org"
+                  "url": "https://rengoni.in/"
                 },
                 {
-                  "@type": "NGO",
+                  "@type": "Organization",
                   "name": "Rengoni – A Ray of Hope",
-                  "alternateName": "Rengoni",
-                  "url": "https://rengoni.org",
-                  "logo": "https://rengoni.org/logo/rengoni-logo.png"
+                  "url": "https://rengoni.in/",
+                  "logo": "https://rengoni.in/logo/rengoni-logo.png",
+                  "email": "rengoniarayofhope@gmail.com",
+                  "telephone": "+918638242054",
+                  "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "M.R. Road, Naliapool",
+                    "addressLocality": "Dibrugarh",
+                    "addressRegion": "Assam",
+                    "postalCode": "786001",
+                    "addressCountry": "IN"
+                  }
                 }
               ]
             })

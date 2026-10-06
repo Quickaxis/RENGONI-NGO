@@ -1,13 +1,19 @@
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: "Rengoni – A Ray of Hope | NGO in Dibrugarh, Assam",
+  description: "Rengoni – A Ray of Hope is a social welfare organization based in Dibrugarh, Assam, supporting communities through compassionate action, welfare initiatives, awareness, relief and community engagement."
+};
+
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowRight } from "lucide-react";
-import aboutImageDesktop from "../../2nd page image.png";
-import aboutImageMobile from "../../hero mobile . png.png";
-import featuredStoryDesktop from "../../4th image rengoni story 2.jpg";
-import featuredStoryMobile from "../../4thimage rengoni story mobile.jpg";
-import newChildrenImg from "../../childreneducationimage.png";
-import newWomenImg from "../../women&community image.png";
-import newHealthImg from "../../healthcamp3rdpage.png";
+import aboutImageDesktop from "../../rengoni-about-community-dibrugarh.png";
+import aboutImageMobile from "../../rengoni-hero-mobile-assam.png";
+import featuredStoryDesktop from "../../rengoni-featured-story-desktop.jpg";
+import featuredStoryMobile from "../../rengoni-featured-story-mobile.jpg";
+import newChildrenImg from "../../rengoni-children-education-assam.png";
+import newWomenImg from "../../rengoni-women-empowerment-assam.png";
+import newHealthImg from "../../rengoni-health-camp-dibrugarh.png";
 import OrganicEdge from "@/components/OrganicEdge";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
 

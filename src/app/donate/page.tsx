@@ -1,7 +1,10 @@
 import { Metadata } from "next";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
 
-export const metadata: Metadata = { title: "Donate" };
+export const metadata: Metadata = {
+  title: "Support Rengoni | Make a Difference",
+  description: "Support Rengoni’s social initiatives. Your contributions help us provide relief, healthcare, and education to those in need in Assam."
+};
 
 export default function DonatePage() {
   return (
