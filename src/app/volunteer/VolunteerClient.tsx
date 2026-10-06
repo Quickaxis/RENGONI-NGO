@@ -2,8 +2,7 @@
 
 import { useState } from "react";
 
-// [VERIFIED CONTENT REQUIRED: Replace with actual official Rengoni WhatsApp number]
-const RENGONI_WHATSAPP_NUMBER = "";
+const RENGONI_WHATSAPP_NUMBER = "918638242054";
 
 export default function VolunteerClient() {
   const [formData, setFormData] = useState({
