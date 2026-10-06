@@ -90,7 +90,31 @@ Thank you.`;
           </p>
           <ul className="space-y-4 text-[#3F3936] text-sm lg:text-base leading-relaxed">
             <li className="flex gap-3">
-              <span className="text-[#F4BA4E] font-bold">•</span> [VERIFIED CONTENT REQUIRED]
+              <span className="text-[#F4BA4E] font-bold">•</span> Participate sincerely in NGO programmes, campaigns, and community activities.
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#F4BA4E] font-bold">•</span> Treat every individual with respect, dignity, and compassion.
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#F4BA4E] font-bold">•</span> Work responsibly with the REGONI team and follow the instructions of coordinators.
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#F4BA4E] font-bold">•</span> Maintain discipline, honesty, and professionalism while representing the organisation.
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#F4BA4E] font-bold">•</span> Help spread awareness about REGONI's initiatives and encourage positive community participation.
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#F4BA4E] font-bold">•</span> Protect the privacy and dignity of beneficiaries, especially children and vulnerable individuals.
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#F4BA4E] font-bold">•</span> Inform the team in advance if unable to attend an assigned activity.
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#F4BA4E] font-bold">•</span> Volunteers must not misuse the name, identity, logo, or reputation of REGONI – A Ray of Hope for any personal, commercial, political, or unauthorized purpose.
+            </li>
+            <li className="flex gap-3">
+              <span className="text-[#F4BA4E] font-bold">•</span> Uphold the values and reputation of REGONI – A Ray of Hope at all times.
             </li>
           </ul>
         </div>

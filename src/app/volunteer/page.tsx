@@ -21,7 +21,7 @@ export default function VolunteerPage() {
             GIVE YOUR TIME
           </h1>
           <p className="text-lg md:text-xl text-[#3F3936] leading-relaxed">
-            [VERIFIED CONTENT REQUIRED] Join our volunteer network and directly support our initiatives on the ground.
+            Join REGONI – A Ray of Hope as a volunteer and become part of our efforts to create meaningful change in the community. By giving your time, skills, and energy, you can directly support our social initiatives, awareness programmes, relief activities, and community welfare projects.
           </p>
         </div>
 

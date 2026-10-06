@@ -59,8 +59,8 @@ export default function ContactPage() {
               <h3 className="font-bold text-[#173F7A] text-sm uppercase tracking-widest mb-3 border-b border-[#173F7A]/10 pb-2">
                 Email
               </h3>
-              <p className="text-[#3F3936] text-base lg:text-lg leading-relaxed uppercase tracking-wider text-xs">
-                [TO BE PROVIDED]
+              <p className="text-[#3F3936] text-base lg:text-lg leading-relaxed">
+                rengoniarayofhope@gmail.com
               </p>
             </div>
             
@@ -69,7 +69,7 @@ export default function ContactPage() {
                 Social Media
               </h3>
               <p className="text-[#3F3936] text-base lg:text-lg leading-relaxed uppercase tracking-wider text-xs">
-                [TO BE PROVIDED]
+                COMING SOON
               </p>
             </div>
 
