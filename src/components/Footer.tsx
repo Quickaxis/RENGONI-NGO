@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import WhatsAppCTA from "@/components/WhatsAppCTA";
 
 export default function Footer() {
@@ -9,9 +10,8 @@ export default function Footer() {
           
           {/* Column 1: Brand & Contact */}
           <div className="flex flex-col">
-            <Link href="/" aria-label="Rengoni – A Ray of Hope" className="flex flex-col mb-4 items-start group">
-              <span className="font-serif text-3xl font-medium tracking-tight text-[#211D1C] leading-none group-hover:opacity-80 transition-opacity uppercase">RENGONI</span>
-              <span className="font-serif text-sm text-[#211D1C]/90 tracking-widest mt-2 leading-none group-hover:opacity-80 transition-opacity uppercase">A Ray of Hope</span>
+            <Link href="/" aria-label="Rengoni - A Ray of Hope" className="flex flex-col mb-4 items-start group">
+              <Image src="/logo/rengoni-logo.png" alt="Rengoni - A Ray of Hope" width={240} height={80} className="h-12 w-auto object-contain group-hover:opacity-80 transition-opacity" />
             </Link>
             <p className="text-[#3F3936] text-sm leading-relaxed mb-6">
               Helping people, animals and communities in need.

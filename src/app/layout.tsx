@@ -26,10 +26,20 @@ export const metadata: Metadata = {
     description: "Creating meaningful change through compassion, action, and community.",
     siteName: "Rengoni – A Ray of Hope",
     type: "website",
+    images: [
+      {
+        url: '/logo/rengoni-logo.png',
+        width: 1536,
+        height: 1024,
+        alt: 'Rengoni - A Ray of Hope',
+      }
+    ],
   },
   twitter: {
+    card: "summary_large_image",
     title: "Rengoni – A Ray of Hope",
     description: "Creating meaningful change through compassion, action, and community.",
+    images: ['/logo/rengoni-logo.png'],
   }
 };
 
@@ -56,7 +66,8 @@ export default function RootLayout({
                   "@type": "NGO",
                   "name": "Rengoni – A Ray of Hope",
                   "alternateName": "Rengoni",
-                  "url": "https://rengoni.org"
+                  "url": "https://rengoni.org",
+                  "logo": "https://rengoni.org/logo/rengoni-logo.png"
                 }
               ]
             })

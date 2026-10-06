@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { Menu, X, ChevronDown, ChevronUp } from "lucide-react";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
@@ -75,9 +76,8 @@ export default function Navbar() {
       >
         
         {/* Logo */}
-        <Link href="/" aria-label="Rengoni – A Ray of Hope" className="flex flex-col flex-shrink-0 group">
-          <span className="font-serif text-2xl lg:text-3xl font-medium tracking-tight text-[#173F7A] group-hover:text-[#F4BA4E] transition-colors leading-none">RENGONI</span>
-          <span className="font-serif text-xs lg:text-sm text-[#3F3936] tracking-widest mt-1 leading-none uppercase">A Ray of Hope</span>
+        <Link href="/" aria-label="Rengoni - A Ray of Hope" className="flex items-center flex-shrink-0">
+          <Image src="/logo/rengoni-logo.png" alt="Rengoni - A Ray of Hope" width={240} height={80} className="h-10 lg:h-12 w-auto object-contain" priority />
         </Link>
         
         {/* Desktop Navigation */}
