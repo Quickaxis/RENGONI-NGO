@@ -27,7 +27,7 @@ export default function PrivacyPolicyPage() {
           <div className="prose prose-lg max-w-none text-[#3F3936] prose-headings:font-serif prose-headings:text-[#173F7A] prose-headings:font-normal prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-p:leading-relaxed prose-a:text-[#F4BA4E] hover:prose-a:text-[#173F7A]">
             
             <h2 id="introduction">1. Introduction</h2>
-            <p>RENGONI – A RAY OF HOPE ("we", "our", or "us") is committed to respecting your privacy. This Privacy Policy explains how we may collect, use, and protect information when you visit our website.</p>
+            <p>RENGONI – A RAY OF HOPE (&quot;we&quot;, &quot;our&quot;, or &quot;us&quot;) is committed to respecting your privacy. This Privacy Policy explains how we may collect, use, and protect information when you visit our website.</p>
 
             <h2 id="information-collection">2. Information We May Collect</h2>
             <p>RENGONI may collect information that you voluntarily provide through forms on this website, such as your name, phone number, email address and other information required for the specific purpose of the form.</p>
@@ -35,8 +35,7 @@ export default function PrivacyPolicyPage() {
             <h2 id="forms">3. Information Submitted Through Forms</h2>
             <p>When you contact us, apply for membership, or volunteer, the information you submit is used solely to respond to your inquiry and process your application.</p>
 
-            <h2 id="donations">4. Donation Information</h2>
-            <p>If you choose to donate, any information collected during that process is used to facilitate the transaction and maintain appropriate organisational records. Where third-party payment services are used, their handling of financial information may also be governed by their respective privacy policies.</p>
+            <p>If you choose to contribute, any information collected is used to coordinate your contribution and maintain appropriate organisational records.</p>
 
             <h2 id="membership">5. Membership Applications</h2>
             <p>Information submitted for membership applications will be used to review your eligibility and maintain our official register of members in accordance with our Constitution and applicable rules.</p>
@@ -50,8 +49,7 @@ export default function PrivacyPolicyPage() {
             <h2 id="data-sharing">8. Data Sharing</h2>
             <p>We do not sell your personal information. We may share information with trusted third-party service providers who assist us in operating our website or conducting our activities, provided they agree to keep such information confidential. We may also disclose information when required by law.</p>
 
-            <h2 id="payment-info">9. Payment Information</h2>
-            <p>Any financial information processed through our website for donations is handled securely. We rely on established third-party payment gateways for these transactions.</p>
+
 
             <h2 id="security">10. Data Security</h2>
             <p>We implement reasonable security measures to protect the information you provide. However, no method of transmission over the internet or electronic storage is completely secure.</p>
@@ -59,10 +57,9 @@ export default function PrivacyPolicyPage() {
             <h2 id="cookies">11. Cookies and Analytics</h2>
             <p>Our website may use cookies and similar technologies to enhance user experience and analyse website traffic. You can choose to disable cookies through your browser settings.</p>
 
-            <h2 id="third-party">12. Third-Party Services</h2>
-            <p>Where third-party services are used on our website (such as analytics or payment processing), their handling of information may also be governed by their respective privacy policies.</p>
+            <p>Where third-party services are used on our website (such as analytics), their handling of information may also be governed by their respective privacy policies.</p>
 
-            <h2 id="children">13. Children's Privacy</h2>
+            <h2 id="children">13. Children&apos;s Privacy</h2>
             <p>We do not knowingly collect personal information from children without appropriate consent. If you believe we have inadvertently collected such information, please contact us.</p>
 
             <h2 id="retention">14. Data Retention</h2>

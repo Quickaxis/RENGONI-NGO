@@ -38,7 +38,7 @@ export default function MembershipPage() {
                 <li className="flex gap-3"><span className="text-[#F4BA4E] font-bold">•</span> Respect beneficiaries, volunteers and fellow members.</li>
                 <li className="flex gap-3"><span className="text-[#F4BA4E] font-bold">•</span> Follow the Constitution, Rules and Regulations and lawful decisions of the Society.</li>
                 <li className="flex gap-3"><span className="text-[#F4BA4E] font-bold">•</span> Maintain the dignity and reputation of the Society.</li>
-                <li className="flex gap-3"><span className="text-[#F4BA4E] font-bold">•</span> Avoid misuse of the Society's name, funds, property or resources.</li>
+                <li className="flex gap-3"><span className="text-[#F4BA4E] font-bold">•</span> Avoid misuse of the Society&apos;s name, funds, property or resources.</li>
                 <li className="flex gap-3"><span className="text-[#F4BA4E] font-bold">•</span> Maintain confidentiality concerning sensitive organisational and beneficiary information.</li>
                 <li className="flex gap-3"><span className="text-[#F4BA4E] font-bold">•</span> Refrain from conduct that may harm the Society or its beneficiaries.</li>
               </ul>
@@ -85,7 +85,7 @@ export default function MembershipPage() {
                   
                   <div className="pt-4 border-t border-[#173F7A]/10">
                     <p className="text-xs text-[#3F3936]/80 italic mb-6">
-                      * Membership applications are subject to the Society's applicable rules and requirements.
+                      * Membership applications are subject to the Society&apos;s applicable rules and requirements.
                     </p>
                     <button type="button" className="bg-[#173F7A] text-white font-bold tracking-[0.15em] uppercase text-sm px-10 py-5 rounded-full hover:bg-[#F4BA4E] hover:text-[#173F7A] transition-colors w-full md:w-auto shadow-md">
                       Submit Application

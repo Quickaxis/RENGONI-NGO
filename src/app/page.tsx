@@ -9,6 +9,7 @@ import newChildrenImg from "../../childreneducationimage.png";
 import newWomenImg from "../../women&community image.png";
 import newHealthImg from "../../healthcamp3rdpage.png";
 import OrganicEdge from "@/components/OrganicEdge";
+import WhatsAppCTA from "@/components/WhatsAppCTA";
 
 export default function Home() {
   return (
@@ -51,9 +52,9 @@ export default function Home() {
                 Creating meaningful change through compassion, action, and community.
               </p>
               <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto">
-                <Link href="/donate" className="inline-flex items-center justify-center h-[54px] lg:h-[60px] px-8 text-[13px] lg:text-[15px] font-bold tracking-[0.15em] text-[#211D1C] bg-[#F4BA4E] hover:bg-[#211D1C] hover:text-[#FBF7F4] rounded-full transition-colors uppercase shadow-md flex-shrink-0 w-full sm:w-auto">
+                <WhatsAppCTA className="inline-flex items-center justify-center h-[54px] lg:h-[60px] px-8 text-[13px] lg:text-[15px] font-bold tracking-[0.15em] text-[#211D1C] bg-[#F4BA4E] hover:bg-[#211D1C] hover:text-[#FBF7F4] rounded-full transition-colors uppercase shadow-md flex-shrink-0 w-full sm:w-auto">
                   MAKE A DIFFERENCE
-                </Link>
+                </WhatsAppCTA>
                 <Link href="/our-work" className="inline-flex items-center justify-center h-[54px] lg:h-[60px] px-8 text-[13px] lg:text-[15px] font-bold tracking-[0.15em] text-[#211D1C] bg-transparent border border-[#211D1C]/20 hover:border-[#211D1C] rounded-full transition-colors uppercase flex-shrink-0 w-full sm:w-auto">
                   EXPLORE OUR WORK
                 </Link>
@@ -165,7 +166,7 @@ export default function Home() {
             {/* Featured Area: Child Welfare */}
             <div className="bg-white rounded-[1.5rem] lg:rounded-[1.75rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-[#173F7A]/5 flex flex-col group relative">
               <div className="relative w-full aspect-video bg-[#EAE5DF] overflow-hidden shrink-0">
-                <img src={newChildrenImg.src} alt="Child Welfare" className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500" />
+                <Image src={newChildrenImg} alt="Child Welfare" className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500" placeholder="blur" />
               </div>
               <div className="p-7 lg:p-9 flex flex-col justify-between flex-grow bg-white relative z-10">
                 <div className="absolute -top-6 right-8 w-12 h-12 rounded-full bg-[#173F7A] flex items-center justify-center shadow-sm text-white">
@@ -191,7 +192,7 @@ export default function Home() {
               {/* Supporting Area 1: Women's Empowerment */}
               <div className="bg-white rounded-[1.5rem] lg:rounded-[1.75rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-[#173F7A]/5 flex flex-col sm:flex-row group flex-1">
                 <div className="w-full sm:w-[42%] h-[220px] sm:h-auto relative overflow-hidden shrink-0 bg-[#EAE5DF]">
-                  <img src={newWomenImg.src} alt="Women's Empowerment" className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500" />
+                  <Image src={newWomenImg} alt="Women's Empowerment" className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500" placeholder="blur" />
                   <div className="absolute bottom-4 left-4 w-9 h-9 rounded-full bg-[#173F7A] flex items-center justify-center shadow-sm text-white z-10">
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                   </div>
@@ -213,7 +214,7 @@ export default function Home() {
               {/* Supporting Area 2: Healthcare & Awareness */}
               <div className="bg-white rounded-[1.5rem] lg:rounded-[1.75rem] overflow-hidden shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-[#173F7A]/5 flex flex-col sm:flex-row group flex-1">
                 <div className="w-full sm:w-[42%] h-[220px] sm:h-auto relative overflow-hidden shrink-0 bg-[#EAE5DF]">
-                  <img src={newHealthImg.src} alt="Healthcare & Awareness" className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500" />
+                  <Image src={newHealthImg} alt="Healthcare & Awareness" className="absolute inset-0 w-full h-full object-cover object-center group-hover:scale-[1.02] transition-transform duration-500" placeholder="blur" />
                   <div className="absolute bottom-4 left-4 w-9 h-9 rounded-full bg-[#173F7A] flex items-center justify-center shadow-sm text-white z-10">
                     <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" /></svg>
                   </div>
@@ -336,7 +337,7 @@ export default function Home() {
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-6 max-w-[1200px] mx-auto">
             {/* Primary Action */}
-            <Link href="/donate" className="group flex flex-col justify-between p-8 lg:p-10 rounded-[2rem] bg-[#173F7A] text-white hover:bg-[#102F5A] transition-all duration-500 shadow-[0_8px_30px_rgb(0,0,0,0.1)] lg:scale-105 lg:z-10 relative overflow-hidden">
+            <WhatsAppCTA className="group flex flex-col justify-between p-8 lg:p-10 rounded-[2rem] bg-[#173F7A] text-white hover:bg-[#102F5A] transition-all duration-500 shadow-[0_8px_30px_rgb(0,0,0,0.1)] lg:scale-105 lg:z-10 relative overflow-hidden text-left">
                <div className="absolute -right-8 -top-8 w-40 h-40 bg-white/10 rounded-full blur-2xl group-hover:bg-[#F4BA4E]/20 transition-colors pointer-events-none"></div>
                <div className="relative z-10">
                  <p className="text-[10px] lg:text-[11px] text-[#F4BA4E] uppercase tracking-[0.2em] font-bold mb-4">MAKE A GIFT TODAY</p>
@@ -347,7 +348,7 @@ export default function Home() {
                    <ArrowRight className="w-5 h-5 text-white group-hover:text-[#173F7A] group-hover:translate-x-1 transition-transform" />
                  </div>
                </div>
-            </Link>
+            </WhatsAppCTA>
             
             {/* Secondary Action 1 */}
             <Link href="/membership" className="group flex flex-col justify-between p-8 lg:p-10 rounded-[2rem] bg-white border border-[#173F7A]/5 text-[#211D1C] hover:border-[#F4BA4E]/50 hover:shadow-lg transition-all duration-500">

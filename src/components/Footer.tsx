@@ -1,4 +1,5 @@
 import Link from "next/link";
+import WhatsAppCTA from "@/components/WhatsAppCTA";
 
 export default function Footer() {
   return (
@@ -39,7 +40,7 @@ export default function Footer() {
             <ul className="space-y-4">
               <li><Link href="/membership" className="text-[#3F3936] hover:text-[#211D1C] text-sm uppercase tracking-wider transition-colors">Membership</Link></li>
               <li><Link href="/volunteer" className="text-[#3F3936] hover:text-[#211D1C] text-sm uppercase tracking-wider transition-colors">Volunteer</Link></li>
-              <li><Link href="/donate" className="text-[#3F3936] hover:text-[#211D1C] text-sm uppercase tracking-wider transition-colors">Make a Difference</Link></li>
+              <li><WhatsAppCTA className="text-[#3F3936] hover:text-[#211D1C] text-sm uppercase tracking-wider transition-colors">Make a Difference</WhatsAppCTA></li>
             </ul>
           </div>
 

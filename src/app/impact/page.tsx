@@ -20,7 +20,7 @@ export default function ImpactPage() {
             Our Impact
           </h1>
           <p className="text-lg md:text-xl text-[#3F3936] leading-relaxed max-w-2xl mx-auto">
-            Our qualitative impact statements are based on the organization's core objectives to create meaningful change.
+            Our qualitative impact statements are based on the organization&apos;s core objectives to create meaningful change.
           </p>
         </div>
 

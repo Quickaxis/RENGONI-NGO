@@ -39,13 +39,13 @@ export default function TermsOfServicePage() {
             <p>Our website may contain links to external sites that are not operated by us. We have no control over the content and practices of these sites, and accept no responsibility for them or for any loss or damage that may arise from your use of them.</p>
 
             <h2 id="information-accuracy">5. Information Accuracy</h2>
-            <p>While we endeavour to ensure that the information on this website is correct and up to date, we do not warrant its completeness or accuracy. The information is provided on an "as is" basis.</p>
+            <p>While we endeavour to ensure that the information on this website is correct and up to date, we do not warrant its completeness or accuracy. The information is provided on an &quot;as is&quot; basis.</p>
 
-            <h2 id="donation-disclaimer">6. Donation/Payment Disclaimer</h2>
-            <p>Any donations made through this website are voluntary contributions to support our charitable objects. Donors are responsible for ensuring the accuracy of their payment information. We reserve the right to decline or refund donations at our discretion in accordance with applicable laws.</p>
+            <h2 id="donation-disclaimer">6. Contribution Disclaimer</h2>
+            <p>Any contributions coordinated through this website are voluntary to support our charitable objects.</p>
 
             <h2 id="membership-disclaimer">7. Membership Application Disclaimer</h2>
-            <p>Submitting a membership application through this website does not guarantee acceptance. All membership applications are subject to review and approval in accordance with the Society's Constitution, Rules, and Regulations.</p>
+            <p>Submitting a membership application through this website does not guarantee acceptance. All membership applications are subject to review and approval in accordance with the Society&apos;s Constitution, Rules, and Regulations.</p>
 
             <h2 id="limitation-liability">8. Limitation of Liability</h2>
             <p>To the maximum extent permitted by law, RENGONI – A RAY OF HOPE shall not be liable for any direct, indirect, incidental, consequential, or special damages arising out of or in any way connected with your use of this website.</p>

@@ -74,7 +74,7 @@ export default function ProgramsPage() {
         
         <div className="container-wide relative z-10 text-center max-w-4xl mx-auto">
           <span className="text-[#F4BA4E] font-bold text-xs uppercase tracking-[0.2em] mb-4 block">
-            THE SOCIETY'S STATED OBJECTS
+            THE SOCIETY&apos;S STATED OBJECTS
           </span>
           <h1 className="font-serif text-[40px] md:text-6xl lg:text-[72px] leading-[1.05] tracking-tight text-[#173F7A] uppercase mb-8">
             Our Areas of Work

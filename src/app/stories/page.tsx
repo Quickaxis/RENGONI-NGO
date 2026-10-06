@@ -29,7 +29,7 @@ export default function StoriesPage() {
               What began from a desire to serve and support people has grown into an organization working toward a broader vision of helping humans, women, underprivileged people, animals, and communities in need.
             </p>
             <p className="text-lg text-[#3F3936] leading-relaxed font-medium">
-              RENGONI continues to believe that even a small act of kindness can become a ray of hope in someone's life.
+              RENGONI continues to believe that even a small act of kindness can become a ray of hope in someone&apos;s life.
             </p>
           </div>
         </div>
@@ -42,7 +42,7 @@ export default function StoriesPage() {
             Real Stories Coming Soon
           </h2>
           <p className="text-lg text-[#3F3936] leading-relaxed">
-            Stories from RENGONI's work will be added here as verified accounts, photographs and details become available.
+            Stories from RENGONI&apos;s work will be added here as verified accounts, photographs and details become available.
           </p>
         </div>
       </section>

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Menu, X, ChevronDown, ChevronUp } from "lucide-react";
 import { useState, useEffect } from "react";
 import { usePathname } from "next/navigation";
+import WhatsAppCTA from "@/components/WhatsAppCTA";
 
 const navigation = [
   { name: 'HOME', href: '/' },
@@ -38,7 +39,9 @@ export default function Navbar() {
   const pathname = usePathname();
 
   useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsOpen(false);
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setOpenDropdown(null);
   }, [pathname]);
 
@@ -50,10 +53,10 @@ export default function Navbar() {
     }
   };
 
-  const isActiveGroup = (item: any) => {
+  const isActiveGroup = (item: { href?: string; children?: { href: string }[] }) => {
     if (item.href === pathname) return true;
     if (item.children) {
-      return item.children.some((child: any) => child.href === pathname);
+      return item.children.some((child) => child.href === pathname);
     }
     return false;
   };
@@ -122,12 +125,9 @@ export default function Navbar() {
 
         {/* CTA & Mobile Toggle */}
         <div className="flex items-center space-x-4">
-          <Link 
-            href="/donate" 
-            className="hidden md:inline-flex items-center justify-center px-8 py-3 text-[11px] font-bold tracking-[0.15em] text-[#173F7A] bg-[#F4BA4E] hover:bg-[#173F7A] hover:text-[#FBF7F4] rounded-full transition-colors shadow-sm uppercase whitespace-nowrap"
-          >
+          <WhatsAppCTA className="hidden md:inline-flex items-center justify-center px-8 py-3 text-[11px] font-bold tracking-[0.15em] text-[#173F7A] bg-[#F4BA4E] hover:bg-[#173F7A] hover:text-[#FBF7F4] rounded-full transition-colors shadow-sm uppercase whitespace-nowrap">
             MAKE A DIFFERENCE
-          </Link>
+          </WhatsAppCTA>
           
           <button 
             className="lg:hidden p-2 text-[#173F7A] hover:text-[#F4BA4E]"
@@ -180,12 +180,9 @@ export default function Navbar() {
             ))}
             
             <div className="pt-6 mt-4 border-t-2 border-[#173F7A]/10">
-              <Link 
-                href="/donate" 
-                className="flex items-center justify-center w-full px-8 py-4 text-[13px] font-bold tracking-[0.15em] text-[#173F7A] bg-[#F4BA4E] hover:bg-[#173F7A] hover:text-[#FBF7F4] rounded-full transition-colors uppercase text-center shadow-md"
-              >
+              <WhatsAppCTA className="flex items-center justify-center w-full px-8 py-4 text-[13px] font-bold tracking-[0.15em] text-[#173F7A] bg-[#F4BA4E] hover:bg-[#173F7A] hover:text-[#FBF7F4] rounded-full transition-colors uppercase text-center shadow-md">
                 MAKE A DIFFERENCE
-              </Link>
+              </WhatsAppCTA>
             </div>
           </div>
         </div>
