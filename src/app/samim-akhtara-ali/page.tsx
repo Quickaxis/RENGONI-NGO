@@ -83,8 +83,7 @@ export default function SamimAkhtaraAliPage() {
               </h2>
               <ul className="flex flex-col gap-8">
                 {[
-                  "Forever Star India Award",
-                  "Super Woman Award 2024",
+                  "Forever Star India Super Woman Award 2024",
                   "Top TIER award",
                   "FEMINA Game Changer North East 2026 Award",
                   "Times of India award 2026",
