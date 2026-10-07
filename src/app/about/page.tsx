@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import Image from "next/image";
+import FounderBio from "@/components/FounderBio";
 
 export const metadata: Metadata = {
   title: "About Rengoni – Our Story",
@@ -70,7 +71,7 @@ export default function AboutPage() {
       {/* 2. OUR FOUNDER SECTION */}
       <section className="py-20 lg:py-32 relative z-10 bg-white border-y border-[#173F7A]/5">
         <div className="container-wide">
-          <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-center">
+          <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-start">
             <div className="w-full lg:w-1/2">
               <div className="relative aspect-[3/4] w-full bg-[#EAE5DF] rounded-[3rem] overflow-hidden shadow-2xl flex items-center justify-center">
                  <Image
@@ -97,17 +98,7 @@ export default function AboutPage() {
                 Founder & President
               </p>
               
-              <div className="text-lg text-[#3F3936] leading-relaxed space-y-6 mb-10">
-                <p>
-                  Samim Akhtara Ali is the Founder and President of RENGONI – A RAY OF HOPE and has been involved in social and community-oriented work for more than a decade.
-                </p>
-                <p>
-                  Through her work, she has focused on helping people in need and contributing to the welfare of humans, women, underprivileged communities, and animals.
-                </p>
-                <p>
-                  Her journey reflects a commitment to compassion, resilience and service to society.
-                </p>
-              </div>
+              <FounderBio />
 
               <blockquote className="border-l-4 border-[#F4BA4E] pl-6 py-2 mb-10">
                 <p className="font-serif text-2xl text-[#173F7A] italic">

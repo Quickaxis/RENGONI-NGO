@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Metadata } from "next";
 import Image from "next/image";
+import FounderBio from "@/components/FounderBio";
 
 export const metadata: Metadata = {
   title: "Samim Akhtara Ali",
@@ -33,17 +34,17 @@ export default function SamimAkhtaraAliPage() {
       />
       
       <div className="container-wide">
-        <div className="flex flex-col lg:flex-row gap-16 lg:gap-24 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-[44%_1fr] gap-x-12 lg:gap-x-20 gap-y-12 lg:gap-y-16 items-start">
           
-          {/* LEFT: PHOTOGRAPH */}
-          <div className="w-full lg:w-[40%]">
+          {/* IMAGE (Left Column Top) */}
+          <div className="w-full lg:col-start-1 lg:col-end-2 lg:row-start-1 lg:row-end-2 order-1">
              <div className="w-full aspect-[3/4] bg-[#EAE5DF] rounded-[3rem] overflow-hidden flex flex-col shadow-2xl relative">
                 <Image
                   src="/images/samim-akhtara-ali-rengoni.jpg"
                   alt="Samim Akhtara Ali - Founder & President"
                   fill
                   className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 40vw"
+                  sizes="(max-width: 1024px) 100vw, 44vw"
                 />
                 {/* Wavy bottom cut like the other pages */}
                 <svg className="absolute -bottom-1 left-0 w-full h-auto text-white z-20" viewBox="0 0 1440 120" fill="currentColor" preserveAspectRatio="none">
@@ -51,9 +52,9 @@ export default function SamimAkhtaraAliPage() {
                 </svg>
              </div>
           </div>
-          
-          {/* RIGHT: CONTENT */}
-          <div className="w-full lg:w-[60%]">
+
+          {/* BIO CONTENT (Right Column) */}
+          <div className="w-full lg:col-start-2 lg:col-end-3 lg:row-start-1 lg:row-end-3 order-2">
             <Link href="/" className="text-xs font-bold tracking-[0.15em] text-[#F4BA4E] uppercase mb-6 inline-block hover:text-[#173F7A] transition-colors">
               ← BACK TO HOME
             </Link>
@@ -71,24 +72,16 @@ export default function SamimAkhtaraAliPage() {
               </span>
             </div>
 
-            <div className="text-lg md:text-xl text-[#3F3936] leading-relaxed space-y-6 mb-16 max-w-3xl">
-              <p>
-                Samim Akhtara Ali is the Founder and President of RENGONI – A RAY OF HOPE and has been involved in social and community-oriented work for more than a decade.
-              </p>
-              <p>
-                Through her work, she has focused on helping people in need and contributing to the welfare of humans, women, underprivileged communities, and animals.
-              </p>
-              <p>
-                Her journey reflects a commitment to compassion, resilience and service to society.
-              </p>
-            </div>
+            <FounderBio />
+          </div>
 
-            {/* AWARDS & RECOGNITION */}
-            <div className="bg-white rounded-[2rem] lg:rounded-[3rem] p-8 md:p-12 lg:p-16 shadow-[0_20px_60px_rgba(0,0,0,0.04)] border border-[#173F7A]/5 mt-4">
-              <h2 className="font-serif text-[2.5rem] lg:text-[3rem] text-[#173F7A] mb-12 leading-[1.05]">
+          {/* AWARDS & RECOGNITION (Left Column Bottom) */}
+          <div className="w-full lg:col-start-1 lg:col-end-2 lg:row-start-2 lg:row-end-3 order-3">
+            <div className="bg-white rounded-[2rem] lg:rounded-[3rem] p-8 md:p-12 lg:p-14 shadow-[0_20px_60px_rgba(0,0,0,0.04)] border border-[#173F7A]/5">
+              <h2 className="font-serif text-[2.25rem] lg:text-[2.75rem] text-[#173F7A] mb-10 leading-[1.05]">
                 Awards & Recognition
               </h2>
-              <ul className="flex flex-col gap-8 lg:gap-10">
+              <ul className="flex flex-col gap-8">
                 {[
                   "Forever Star India Award",
                   "Super Woman Award 2024",
@@ -98,19 +91,19 @@ export default function SamimAkhtaraAliPage() {
                   "Byatikram Outstanding Contribution To Social Empowerment Award 2026 at the Byatikram Women Conclave 5.0",
                   "Byatikram Life Time Achievement Award For Excellence In The Field Education at the guru gaurav samman 2026"
                 ].map((award, idx) => (
-                  <li key={idx} className="flex items-start gap-6 lg:gap-8 border-b border-[#173F7A]/5 pb-8 lg:pb-10 last:border-0 last:pb-0 group">
-                    <span className="font-bold text-[#F4BA4E] text-sm lg:text-base tracking-[0.2em] pt-1 shrink-0">
+                  <li key={idx} className="flex flex-col gap-1.5 border-b border-[#173F7A]/5 pb-8 last:border-0 last:pb-0 group">
+                    <span className="font-bold text-[#F4BA4E] text-sm tracking-[0.2em]">
                       [{String(idx + 1).padStart(2, '0')}]
                     </span>
-                    <span className="text-lg lg:text-xl text-[#211D1C] leading-relaxed font-medium group-hover:text-[#173F7A] transition-colors">
+                    <span className="text-[17px] lg:text-[19px] text-[#211D1C] leading-relaxed font-medium group-hover:text-[#173F7A] transition-colors">
                       {award}
                     </span>
                   </li>
                 ))}
               </ul>
             </div>
-            
           </div>
+          
         </div>
       </div>
     </div>
