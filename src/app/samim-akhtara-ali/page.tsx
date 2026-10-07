@@ -88,8 +88,7 @@ export default function SamimAkhtaraAliPage() {
                   "Top TIER award",
                   "FEMINA Game Changer North East 2026 Award",
                   "Times of India award 2026",
-                  "Byatikram Outstanding Contribution To Social Empowerment Award 2026 at the Byatikram Women Conclave 5.0",
-                  "Byatikram Life Time Achievement Award For Excellence In The Field Education at the guru gaurav samman 2026"
+                  "Byatikram Outstanding Contribution To Social Empowerment Award 2026 at the Byatikram Women Conclave 5.0"
                 ].map((award, idx) => (
                   <li key={idx} className="flex flex-col gap-1.5 border-b border-[#173F7A]/5 pb-8 last:border-0 last:pb-0 group">
                     <span className="font-bold text-[#F4BA4E] text-sm tracking-[0.2em]">
